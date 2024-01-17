@@ -12,3 +12,11 @@ Welcome to the Flutter Firebase Storage Upload App! This Flutter application all
 To get started with the app, follow these steps:
 
 1. Clone the repository:
+git clone https://github.com/your-username/flutter-firebase-storage-upload-app.git
+
+2. Navigate to the project directory:
+cd flutter-firebase-storage-upload-app
+
+3. Install dependencies:
+flutter pub get
+
