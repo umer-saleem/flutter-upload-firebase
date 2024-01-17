@@ -7,3 +7,6 @@ Welcome to the Flutter Firebase Storage Upload App! This Flutter application all
 * File Upload: Easily upload images or files from the device to Firebase Storage.
 * Real-time Progress: Users can track the real-time progress of their file uploads.
 * Firebase Storage Integration: The app seamlessly integrates with Firebase Storage to store user-uploaded data.
+
+# Getting Started
+To get started with the app, follow these steps:
