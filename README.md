@@ -10,3 +10,5 @@ Welcome to the Flutter Firebase Storage Upload App! This Flutter application all
 
 # Getting Started
 To get started with the app, follow these steps:
+
+1. Clone the repository:
