@@ -23,3 +23,8 @@ flutter pub get
 # Firebase Storage Configuration
 Ensure that you have set up Firebase Storage rules to allow user uploads. Update the rules in the Firebase Console or firebase.json file accordingly:
 
+# Screenshots
+
+# Contributions
+Contributions are welcome! If you'd like to contribute to the project, please follow the standard GitHub fork and pull request workflow.
+
