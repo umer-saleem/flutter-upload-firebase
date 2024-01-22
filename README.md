@@ -22,7 +22,7 @@ flutter pub get
 
 # Firebase Storage Configuration
 Ensure that you have set up Firebase Storage rules to allow user uploads. Update the rules in the Firebase Console or firebase.json file accordingly:
-// Example Firebase Storage rules allowing authenticated users to upload files <br>
+// Example Firebase Storage rules allowing authenticated users to upload files
 service firebase.storage {
   match /b/{bucket}/o {
     match /{allPaths=**} {
