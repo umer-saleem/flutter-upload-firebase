@@ -1,14 +1,14 @@
 # Flutter Firebase Storage Upload App
 Welcome to the Flutter Firebase Storage Upload App! This Flutter application allows users to easily upload their data, such as images or files, to Firebase Storage. Firebase Storage provides a scalable and secure solution for storing and serving user-generated content, making it an excellent choice for your Flutter applications.
 
-## Features
+### Features
 * **User-Friendly Interface:** The app provides an intuitive user interface for a seamless experience.
 * **Firebase Authentication:** Users can sign in securely using Firebase Authentication to ensure data privacy.
 * **File Upload:** Easily upload images or files from the device to Firebase Storage.
 * **Real-time Progress:** Users can track the real-time progress of their file uploads.
 * **Firebase Storage Integration:** The app seamlessly integrates with Firebase Storage to store user-uploaded data.
 
-# Getting Started
+## Getting Started
 To get started with the app, follow these steps:
 
 1. Clone the repository:<br>
@@ -20,9 +20,9 @@ cd flutter-firebase-storage-upload-app
 3. Install dependencies:
 flutter pub get
 
-## 1. Installing Dependencies
+### 1. Installing Dependencies
 Using
-## 2. Firebase Storage Configuration
+### 2. Firebase Storage Configuration
 Ensure that you have set up Firebase Storage rules to allow user uploads. Update the rules in the Firebase Console or firebase.json file accordingly:
 ```
 service firebase.storage {
@@ -32,9 +32,9 @@ service firebase.storage {
   }
 }
 ```
-# Screenshots
+## Screenshots
 ![alt text](https://github.com/umer-saleem/flutter-upload-firebase/blob/main/ss1.PNG?raw=true)
 
-# Contributions
+## Contributions
 Contributions are welcome! If you'd like to contribute to the project, please follow the standard GitHub fork and pull request workflow.
 
