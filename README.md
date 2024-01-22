@@ -31,7 +31,6 @@ service firebase.storage {<br>
   }
 }
 
-
 # Screenshots
 
 # Contributions
