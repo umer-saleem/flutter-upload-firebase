@@ -27,8 +27,7 @@ Ensure that you have set up Firebase Storage rules to allow user uploads. Update
 service firebase.storage {
   match /b/{bucket}/o {
     match /{allPaths=**} {
-      allow read, write: if request.auth != null;
-    }
+      allow read, write: if request.auth != null;}
   }
 }
 ```
