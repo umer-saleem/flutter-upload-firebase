@@ -34,7 +34,28 @@ service firebase.storage {
 ```
 
 ### 3. Firebase Initialization
-
+```
+void main() async{
+  
+  WidgetsFlutterBinding.ensureInitialized();
+  if (kIsWeb) {
+    await Firebase.initializeApp(
+      options: const FirebaseOptions(
+        apiKey: "AIzaSyAZF2w1o8KUvaZihjthZc5BW0uWYvvYlZw",
+        authDomain: "flutterstorage1-46e3f.firebaseapp.com",
+        projectId: "flutterstorage1-46e3f",
+        storageBucket: "flutterstorage1-46e3f.appspot.com",
+        messagingSenderId: "710281281",
+        appId: "1:710281281:web:93a26ab125284ae8749ec0",
+        ),);
+  }
+  else{
+    WidgetsFlutterBinding.ensureInitialized();
+  }
+  
+  runApp(const MyApp());
+}
+```
 ## Screenshots
 ![alt text](https://github.com/umer-saleem/flutter-upload-firebase/blob/main/ss1.PNG?raw=true)
 
