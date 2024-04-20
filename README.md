@@ -43,9 +43,12 @@ void main() async{
   runApp(const MyApp());
 }
 ```
-## Screenshots
+### 4. Running the Project
+To run the flutter application, within the main project folder, navigate to the “lib” subfolder and then open the “main.dart” file before running it to initialize the application. 
+
+## 5. Screenshots
 ![alt text](https://github.com/umer-saleem/flutter-upload-firebase/blob/main/ss1.PNG?raw=true)
 
-## Contributions
+## 6. Contributions
 Contributions are welcome! If you'd like to contribute to the project, please follow the standard GitHub fork and pull request workflow.
 
