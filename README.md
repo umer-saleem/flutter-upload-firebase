@@ -21,7 +21,8 @@ cd flutter-firebase-storage-upload-app
 flutter pub get
 
 ### 1. Installing Dependencies
-Using
+Before getting started, ensure that you have a Flutter development environment set up and Firebase project created with Firebase Storage enabled. Update the necessary dependencies inside your 
+“pubspec.yaml” file of the flutter project.
 ### 2. Firebase Storage Configuration
 Ensure that you have set up Firebase Storage rules to allow user uploads. Update the rules in the Firebase Console or firebase.json file accordingly:
 ```
