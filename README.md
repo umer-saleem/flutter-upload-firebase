@@ -32,6 +32,9 @@ service firebase.storage {
   }
 }
 ```
+
+### 3. Firebase Initialization
+
 ## Screenshots
 ![alt text](https://github.com/umer-saleem/flutter-upload-firebase/blob/main/ss1.PNG?raw=true)
 
